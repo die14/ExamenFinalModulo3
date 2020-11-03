@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "5dd217bd-5a6b-446a-ad99-324272381ab6",
+		"name": "Examen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "37f5c235-eb30-4c69-84dd-167fb5eb05be",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Listos para el examen\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/v1/examen/status",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"v1",
+						"examen",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "randomName",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f7402d11-394e-4e02-b381-9a972abd424f",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "testpass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "testuser",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/v1/examen/randomName",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"v1",
+						"examen",
+						"randomName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sameName",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "49394926-56d1-42cd-a8e0-09cf1b5f5d16",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Stone Cold\"\r\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/v1/examen/sameName",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"v1",
+						"examen",
+						"sameName"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateName",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7506a6f9-78d8-4285-b812-1f4448429594",
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Stone Cold\"\r\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/v1/examen/updateName",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"v1",
+						"examen",
+						"updateName"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
