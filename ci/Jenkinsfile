@@ -2,19 +2,25 @@ pipeline {
    agent any
 
    stages {
+      
       stage('Newman Tests') {
          steps {            
             sh '''            
             cd api/newman
             newman run Examen.postman_collection.json -e HerokuDiego.postman_environment.json
-            cd
-            '''
-            // To run Maven on a Windows agent, use
-            // bat "mvn -Dmaven.test.failure.ignore=true clean package"
-            
-         }
-
-        
+            '''            
+         }        
       }
+
+        stage('Jmeter Tests') {
+         steps {            
+            sh '''            
+            cd load
+            export PATH=/home/pjcalvov/jmeter/apache-jmeter-5.3/bin:$PATH
+            jmeter -n -t examen_test_plan_diego.jmx
+            '''            
+         }        
+      }
+
    }
 }
