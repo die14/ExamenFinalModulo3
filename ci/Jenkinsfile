@@ -24,7 +24,7 @@ pipeline {
 */
       stage('RestAssured Tests') {
          steps {            
-            sh '''            
+            bat '''            
             cd api/restassured
             mvn clean test
             cd..
