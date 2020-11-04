@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Localhost" duration-ms="7581" started-at="2020-11-04T06:30:28Z" finished-at="2020-11-04T06:30:36Z">
+  <suite name="Localhost" duration-ms="14109" started-at="2020-11-04T14:24:16Z" finished-at="2020-11-04T14:24:30Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="7581" started-at="2020-11-04T06:30:28Z" finished-at="2020-11-04T06:30:36Z">
+    <test name="Regression" duration-ms="14109" started-at="2020-11-04T14:24:16Z" finished-at="2020-11-04T14:24:30Z">
       <class name="PingTests">
-        <test-method status="PASS" signature="SetupRestAssured(java.lang.String)[pri:0, instance:PingTests@7c16905e]" name="SetupRestAssured" is-config="true" duration-ms="1182" started-at="2020-11-04T06:30:28Z" finished-at="2020-11-04T06:30:30Z">
+        <test-method status="PASS" signature="SetupRestAssured(java.lang.String)[pri:0, instance:PingTests@2a2d45ba]" name="SetupRestAssured" is-config="true" duration-ms="1544" started-at="2020-11-04T14:24:16Z" finished-at="2020-11-04T14:24:17Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupRestAssured -->
-        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@7c16905e]" name="before" is-config="true" duration-ms="312" started-at="2020-11-04T06:30:30Z" finished-at="2020-11-04T06:30:30Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="582" started-at="2020-11-04T14:24:17Z" finished-at="2020-11-04T14:24:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="Ping_Tests()[pri:0, instance:PingTests@7c16905e]" name="Ping_Tests" duration-ms="6046" started-at="2020-11-04T06:30:30Z" finished-at="2020-11-04T06:30:36Z">
+        <test-method status="PASS" signature="Ping_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="Ping_Tests" duration-ms="11923" started-at="2020-11-04T14:24:18Z" finished-at="2020-11-04T14:24:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Ping_Tests -->

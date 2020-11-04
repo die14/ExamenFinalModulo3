@@ -26,9 +26,7 @@ pipeline {
          steps {            
             bat '''            
             cd api/restassured
-            mvn clean test
-            cd..
-            cd..
+            mvn clean test            
             '''            
          }        
       }
