@@ -27,6 +27,8 @@ pipeline {
             sh '''            
             cd api/restassured
             mvn clean test
+            cd..
+            cd..
             '''            
          }        
       }
