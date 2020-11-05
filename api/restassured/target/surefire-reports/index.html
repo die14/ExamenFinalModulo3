@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,22 @@
                     <div class="method-list-content passed suite-Localhost">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Localhost" title="PingTests" hash-for-method="Ping_Tests">Ping_Tests</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Localhost" title="PingTests" hash-for-method="Status_Tests">Status_Tests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Localhost" title="PingTests" hash-for-method="randomName_Tests">randomName_Tests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Localhost" title="PingTests" hash-for-method="sameName_Tests">sameName_Tests</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Localhost" title="PingTests" hash-for-method="updateName_Tests">updateName_Tests</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Localhost -->
@@ -125,9 +140,30 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Ping_Tests">
-                  </a> <!-- Ping_Tests -->
-                  <span class="method-name">Ping_Tests</span>
+                  <a name="Status_Tests">
+                  </a> <!-- Status_Tests -->
+                  <span class="method-name">Status_Tests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="randomName_Tests">
+                  </a> <!-- randomName_Tests -->
+                  <span class="method-name">randomName_Tests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sameName_Tests">
+                  </a> <!-- sameName_Tests -->
+                  <span class="method-name">sameName_Tests</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateName_Tests">
+                  </a> <!-- updateName_Tests -->
+                  <span class="method-name">updateName_Tests</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +221,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Ping_Tests')
+data.setCell(0, 1, 'Status_Tests')
 data.setCell(0, 2, 'PingTests')
-data.setCell(0, 3, 11923);
+data.setCell(0, 3, 3953);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sameName_Tests')
+data.setCell(1, 2, 'PingTests')
+data.setCell(1, 3, 785);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'randomName_Tests')
+data.setCell(2, 2, 'PingTests')
+data.setCell(2, 3, 746);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'updateName_Tests')
+data.setCell(3, 2, 'PingTests')
+data.setCell(3, 3, 585);
 window.suiteTableData['Localhost']= { tableData: data, tableDiv: 'times-div-Localhost'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Localhost">
               </div> <!-- times-div-Localhost -->
             </div> <!-- times-div -->
@@ -227,11 +275,35 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">before</span>
-                <span class="method-start">1570 ms</span>
+                <span class="method-start">1366 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Ping_Tests</span>
-                <span class="method-start">2152 ms</span>
+                <span class="method-name">Status_Tests</span>
+                <span class="method-start">1740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before</span>
+                <span class="method-start">5698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">randomName_Tests</span>
+                <span class="method-start">5700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before</span>
+                <span class="method-start">6447 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sameName_Tests</span>
+                <span class="method-start">6448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">before</span>
+                <span class="method-start">7234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateName_Tests</span>
+                <span class="method-start">7235 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

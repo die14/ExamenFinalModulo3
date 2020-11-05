@@ -2,7 +2,7 @@ pipeline {
    agent any
 
    stages {
-      /*
+      
       stage('Newman Tests') {
          steps {            
             sh '''            
@@ -21,7 +21,7 @@ pipeline {
             '''            
          }         
       }
-*/
+
       stage('RestAssured Tests') {
          steps {            
             sh '''            
