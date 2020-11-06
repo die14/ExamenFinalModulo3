@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Localhost" duration-ms="7843" started-at="2020-11-05T05:15:12Z" finished-at="2020-11-05T05:15:19Z">
+  <suite name="Localhost" duration-ms="7467" started-at="2020-11-06T21:20:25Z" finished-at="2020-11-06T21:20:32Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="7843" started-at="2020-11-05T05:15:12Z" finished-at="2020-11-05T05:15:19Z">
+    <test name="Regression" duration-ms="7467" started-at="2020-11-06T21:20:25Z" finished-at="2020-11-06T21:20:32Z">
       <class name="PingTests">
-        <test-method status="PASS" signature="SetupRestAssured(java.lang.String)[pri:0, instance:PingTests@2a2d45ba]" name="SetupRestAssured" is-config="true" duration-ms="1351" started-at="2020-11-05T05:15:12Z" finished-at="2020-11-05T05:15:13Z">
+        <test-method status="PASS" signature="SetupRestAssured(java.lang.String)[pri:0, instance:PingTests@2a2d45ba]" name="SetupRestAssured" is-config="true" duration-ms="1253" started-at="2020-11-06T21:20:25Z" finished-at="2020-11-06T21:20:26Z">
           <params>
             <param index="0">
               <value>
@@ -18,38 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetupRestAssured -->
-        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="374" started-at="2020-11-05T05:15:13Z" finished-at="2020-11-05T05:15:13Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="473" started-at="2020-11-06T21:20:26Z" finished-at="2020-11-06T21:20:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="Status_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="Status_Tests" duration-ms="3953" started-at="2020-11-05T05:15:13Z" finished-at="2020-11-05T05:15:17Z">
+        <test-method status="PASS" signature="Status_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="Status_Tests" duration-ms="3776" started-at="2020-11-06T21:20:26Z" finished-at="2020-11-06T21:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Status_Tests -->
-        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="2" started-at="2020-11-05T05:15:17Z" finished-at="2020-11-05T05:15:17Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="1" started-at="2020-11-06T21:20:30Z" finished-at="2020-11-06T21:20:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="randomName_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="randomName_Tests" duration-ms="746" started-at="2020-11-05T05:15:17Z" finished-at="2020-11-05T05:15:18Z">
+        <test-method status="PASS" signature="randomName_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="randomName_Tests" duration-ms="588" started-at="2020-11-06T21:20:30Z" finished-at="2020-11-06T21:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- randomName_Tests -->
-        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="1" started-at="2020-11-05T05:15:18Z" finished-at="2020-11-05T05:15:18Z">
+        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="1" started-at="2020-11-06T21:20:31Z" finished-at="2020-11-06T21:20:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="sameName_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="sameName_Tests" duration-ms="785" started-at="2020-11-05T05:15:18Z" finished-at="2020-11-05T05:15:19Z">
+        <test-method status="PASS" signature="sameName_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="sameName_Tests" duration-ms="809" started-at="2020-11-06T21:20:31Z" finished-at="2020-11-06T21:20:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sameName_Tests -->
-        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="1" started-at="2020-11-05T05:15:19Z" finished-at="2020-11-05T05:15:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- before -->
-        <test-method status="PASS" signature="updateName_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="updateName_Tests" duration-ms="585" started-at="2020-11-05T05:15:19Z" finished-at="2020-11-05T05:15:19Z">
+        <test-method status="PASS" signature="updateName_Tests()[pri:0, instance:PingTests@2a2d45ba]" name="updateName_Tests" duration-ms="517" started-at="2020-11-06T21:20:32Z" finished-at="2020-11-06T21:20:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateName_Tests -->
+        <test-method status="PASS" signature="before()[pri:0, instance:PingTests@2a2d45ba]" name="before" is-config="true" duration-ms="0" started-at="2020-11-06T21:20:32Z" finished-at="2020-11-06T21:20:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
       </class> <!-- PingTests -->
     </test> <!-- Regression -->
   </suite> <!-- Localhost -->

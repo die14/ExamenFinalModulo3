@@ -29,7 +29,7 @@ public class PingTests extends BaseTest{
                 .statusCode(200);
     }
 
-        @Test
+    @Test
     public void randomName_Tests(){
         request
                 .auth()
